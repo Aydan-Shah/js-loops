@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+</head>
+<body>
+    <script>
+        // Write a JS code to find the largest number in an array
+
+        var arr = [2, 45, 3, 67, 34, 567, 34, 345, 123]; 
+
+        var largest = arr[0];
+        for(var i =0; i<arr.length; i++) {
+            largest = arr[i]>largest ? arr[i]:largest;
+        }
+        document.write(largest);
+
+
+    </script>
+</body>
+</html>
